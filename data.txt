@@ -1,0 +1,722 @@
+[
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {鮨科 (Serranidae)}; 属: {石斑鱼属 (Epinephelus)}; 种: {鞍带石斑鱼/龙趸}",
+    "expected_output": "学名: Epinephelus lanceolatus"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲤形目 (Cypriniformes)}; 科: {鲤科 (Cyprinidae)}; 属: {鲤属 (Cyprinus)}; 种: {鲤鱼/锦鲤}",
+    "expected_output": "学名: Cyprinus carpio"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲑形目 (Salmoniformes)}; 科: {鲑科 (Salmonidae)}; 属: {大麻哈鱼属 (Oncorhynchus)}; 种: {红大麻哈鱼/虹鳟}",
+    "expected_output": "学名: Oncorhynchus mykiss"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {软骨鱼纲 (Chondrichthyes)}; 目: {鼠鲨目 (Lamniformes)}; 科: {鼠鲨科 (Lamnidae)}; 属: {噬人鲨属 (Carcharodon)}; 种: {大白鲨}",
+    "expected_output": "学名: Carcharodon carcharias"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {隆头鱼科 (Labridae)}; 属: {裂唇鱼属 (Labroides)}; 种: {裂唇鱼/医生鱼}",
+    "expected_output": "学名: Labroides dimidiatus"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲀形目 (Tetraodontiformes)}; 科: {四齿鲀科 (Tetraodontidae)}; 属: {东方鲀属 (Takifugu)}; 种: {红鳍东方鲀/虎河豚}",
+    "expected_output": "学名: Takifugu rubripes"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {慈鲷科 (Cichlidae)}; 属: {盘丽鱼属 (Symphysodon)}; 种: {黄棕盘丽鱼/七彩神仙鱼}",
+    "expected_output": "学名: Symphysodon aequifasciatus"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲤形目 (Cypriniformes)}; 科: {鲤科 (Cyprinidae)}; 属: {草鱼属 (Ctenopharyngodon)}; 种: {草鱼}",
+    "expected_output": "学名: Ctenopharyngodon idella"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {舵鱼科 (Kyphosidae)}; 属: {篮子鱼属 (Siganus)}; 种: {褐篮子鱼/臭肚鱼}",
+    "expected_output": "学名: Siganus fuscescens"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {胡瓜鱼目 (Osmeriformes)}; 科: {香鱼科 (Plecoglossidae)}; 属: {香鱼属 (Plecoglossus)}; 种: {香鱼}",
+    "expected_output": "学名: Plecoglossus altivelis"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {雀鲷科 (Pomacentridae)}; 属: {双锯鱼属 (Amphiprion)}; 种: {小丑鱼，体表有三条白色条纹，常见于印度洋和西太平洋的珊瑚礁}",
+    "expected_output": "[{学名: Amphiprion ocellaris}, {学名: Amphiprion percula}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {鲭科 (Scombridae)}; 属: {鲔属 (Thunnus)}; 种: {蓝鳍金枪鱼，主要活动于大西洋}",
+    "expected_output": "[{学名: Thunnus thynnus}, {学名: Thunnus maccoyii}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲤形目 (Cypriniformes)}; 科: {鲤科 (Cyprinidae)}; 属: {鲫属 (Carassius)}; 种: {鲫鱼，体型较小，银灰色，广泛分布于亚洲淡水}",
+    "expected_output": "[{学名: Carassius auratus}, {学名: Carassius carassius}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲑形目 (Salmoniformes)}; 科: {鲑科 (Salmonidae)}; 属: {大麻哈鱼属 (Oncorhynchus)}; 种: {太平洋鲑鱼，产卵期体色变为鲜红色}",
+    "expected_output": "[{学名: Oncorhynchus nerka}, {学名: Oncorhynchus keta}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {鮨科 (Serranidae)}; 属: {石斑鱼属 (Epinephelus)}; 种: {石斑鱼，体色棕红，常见于东南亚珊瑚礁}",
+    "expected_output": "[{学名: Epinephelus fuscoguttatus}, {学名: Epinephelus coioides}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲀形目 (Tetraodontiformes)}; 科: {单棘鲀科 (Monacanthidae)}; 属: {单棘鲀属 (Monacanthus)}; 种: {剥皮鱼，体型扁平，皮肤粗糙，分布于中国沿海}",
+    "expected_output": "[{学名: Monacanthus chinensis}, {学名: Monacanthus tomentosus}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {蝴蝶鱼科 (Chaetodontidae)}; 属: {蝴蝶鱼属 (Chaetodon)}; 种: {蝴蝶鱼，黄色身体，眼部有黑色条纹}",
+    "expected_output": "[{学名: Chaetodon auriga}, {学名: Chaetodon vagabundus}, {学名: Chaetodon lunula}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生 biologist，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲇形目 (Siluriformes)}; 科: {鲶科 (Siluridae)}; 属: {鲶属 (Silurus)}; 种: {鲶鱼，大型淡水捕食者，分布于欧洲}",
+    "expected_output": "[{学名: Silurus glanis}, {学名: Silurus asotus}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲉形目 (Scorpaeniformes)}; 科: {鲉科 (Scorpaenidae)}; 属: {蓑鲉属 (Pterois)}; 种: {狮子鱼，鳍棘有毒，红白相间条纹}",
+    "expected_output": "[{学名: Pterois volitans}, {学名: Pterois miles}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鳗鲡目 (Anguilliformes)}; 科: {海鳝科 (Muraenidae)}; 属: {裸胸鳝属 (Gymnothorax)}; 种: {海鳝，斑点图案，生活在热带珊瑚礁的洞穴中}",
+    "expected_output": "[{学名: Gymnothorax javanicus}, {学名: Gymnothorax favagineus}]"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {带鱼属 (Trichiurus)}; 种: {白带鱼/牙带}",
+    "expected_output": "补全层级: 科: {带鱼科 (Trichiuridae)}; 学名: Trichiurus lepturus"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {草鱼属 (Ctenopharyngodon)}; 种: {草鱼}",
+    "expected_output": "补全层级: 科: {鲤科 (Cyprinidae)}; 学名: Ctenopharyngodon idella"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲑形目 (Salmoniformes)} → {大麻哈鱼属 (Oncorhynchus)}; 种: {虹鳟}",
+    "expected_output": "补全层级: 科: {鲑科 (Salmonidae)}; 学名: Oncorhynchus mykiss"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲀形目 (Tetraodontiformes)} → {翻车鲀属 (Mola)}; 种: {翻车鱼}",
+    "expected_output": "补全层级: 科: {翻车鲀科 (Molidae)}; 学名: Mola mola"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {乌鳢属 (Channa)}; 种: {黑鱼}",
+    "expected_output": "补全层级: 科: {鳢科 (Channidae)}; 学名: Channa argus"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鼠鲨目 (Lamniformes)} → {噬人鲨属 (Carcharodon)}; 种: {大白鲨}",
+    "expected_output": "补全层级: 科: {鼠鲨科 (Lamnidae)}; 学名: Carcharodon carcharias"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {海马目 (Syngnathiformes)} → {海马属 (Hippocampus)}; 种: {大海马}",
+    "expected_output": "补全层级: 科: {海龙科 (Syngnathidae)}; 学名: Hippocampus kelloggi"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {鲢属 (Hypophthalmichthys)}; 种: {白鲢}",
+    "expected_output": "补全层级: 科: {鲤科 (Cyprinidae)}; 学名: Hypophthalmichthys molitrix"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {斗鱼属 (Betta)}; 种: {泰国斗鱼}",
+    "expected_output": "补全层级: 科: {丝足鲈科 (Osphronemidae)}; 学名: Betta splendens"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {电鳗目 (Gymnotiformes)} → {电鳗属 (Electrophorus)}; 种: {电鳗}",
+    "expected_output": "补全层级: 科: {裸背电鳗科 (Gymnotidae)}; 学名: Electrophorus electricus"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {鮨科 (Serranidae)}; 种: {石斑鱼}",
+    "expected_output": "补全层级: 属: {石斑鱼属 (Epinephelus) 等}; [{学名: Epinephelus coioides}, {学名: Epinephelus lanceolatus}, {学名: Epinephelus fuscoguttatus}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {鲭科 (Scombridae)}; 种: {金枪鱼}",
+    "expected_output": "补全层级: 属: {鲔属 (Thunnus) 等}; [{学名: Thunnus orientalis}, {学名: Thunnus albacares}, {学名: Thunnus thynnus}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {鲤科 (Cyprinidae)}; 种: {鲂鱼}",
+    "expected_output": "补全层级: 属: {鲂属 (Megalobrama) 等}; [{学名: Megalobrama amblycephala}, {学名: Megalobrama terminalis}, {学名: Parabramis pekinensis}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {鲷科 (Sparidae)}; 种: {鲷鱼}",
+    "expected_output": "补全层级: 属: {牙鲷属 (Dentex), 赤鲷属 (Pagrus) 等}; [{学名: Pagrus major}, {学名: Sparus aurata}, {学名: Acanthopagrus schlegelii}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲑形目 (Salmoniformes)} → {鲑科 (Salmonidae)}; 种: {鲑鱼}",
+    "expected_output": "补全层级: 属: {大麻哈鱼属 (Oncorhynchus), 鲑属 (Salmo) 等}; [{学名: Salmo salar}, {学名: Oncorhynchus gorbuscha}, {学名: Oncorhynchus tshawytscha}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {慈鲷科 (Cichlidae)}; 种: {神仙鱼}",
+    "expected_output": "补全层级: 属: {神仙鱼属 (Pterophyllum)}; [{学名: Pterophyllum scalare}, {学名: Pterophyllum altum}, {学名: Pterophyllum leopoldi}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲇形目 (Siluriformes)} → {鲿科 (Bagridae)}; 种: {黄辣丁}",
+    "expected_output": "补全层级: 属: {黄颡鱼属 (Pelteobagrus)}; [{学名: Pelteobagrus fulvidraco}, {学名: Pelteobagrus vachellii}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲉形目 (Scorpaeniformes)} → {杜父鱼科 (Cottidae)}; 种: {杜父鱼}",
+    "expected_output": "补全层级: 属: {杜父鱼属 (Cottus) 等}; [{学名: Cottus gobio}, {学名: Myoxocephalus scorpius}, {学名: Triglopsis quadricornis}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {虾虎鱼科 (Gobiidae)}; 种: {虾虎鱼}",
+    "expected_output": "补全层级: 属: (多个属); [{学名: Rhinogobius giurinus}, {学名: Tridentiger trigonocephalus}, {学名: Periophthalmus cantonensis}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {吸口鲤科 (Catostomidae)}; 种: {胭脂鱼}",
+    "expected_output": "补全层级: 属: {胭脂鱼属 (Myxocyprinus)}; [{学名: Myxocyprinus asiaticus}]"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {大西洋鳕}",
+    "expected_output": "学名: Gadus morhua"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {尼罗罗非鱼}",
+    "expected_output": "学名: Oreochromis niloticus"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {中华鲟}",
+    "expected_output": "学名: Acipenser sinensis"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {湄公河巨鲶}",
+    "expected_output": "学名: Pangasianodon gigas"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {食人鱼/红腹锯脂鲤}",
+    "expected_output": "学名: Pygocentrus nattereri"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {巨骨舌鱼}",
+    "expected_output": "学名: Arapaima gigas"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {太平洋蓝鳍金枪鱼}",
+    "expected_output": "学名: Thunnus orientalis"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {孔雀鱼}",
+    "expected_output": "学名: Poecilia reticulata"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {白暨豚}",
+    "expected_output": "学名: Lipotes vexillifer"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {鲸鲨}",
+    "expected_output": "学名: Rhincodon typus"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {鲈鱼}",
+    "expected_output": "[{学名: Lateolabrax japonicus}, {学名: Micropterus salmoides}, {学名: Perca fluviatilis}, {学名: Dicentrarchus labrax}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {带鱼}",
+    "expected_output": "[{学名: Trichiurus lepturus}, {学名: Trichiurus nanhaiensis}, {学名: Eupleurogrammus muticus}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {鳗鱼}",
+    "expected_output": "[{学名: Anguilla japonica}, {学名: Anguilla anguilla}, {学名: Anguilla rostrata}, {学名: Muraenesox cinereus}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {鲨鱼}",
+    "expected_output": "[{学名: Carcharodon carcharias}, {学名: Galeocerdo cuvier}, {学名: Sphyrna mokarran}, {学名: Rhincodon typus}, {学名: Prionace glauca}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {黄鱼}",
+    "expected_output": "[{学名: Larimichthys crocea}, {学名: Larimichthys polyactis}, {学名: Pseudosciaena manchurica}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {鲤鱼}",
+    "expected_output": "[{学名: Cyprinus carpio}, {学名: Carassius auratus}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: { catfish / 鲶鱼}",
+    "expected_output": "[{学名: Silurus asotus}, {学名: Ictalurus punctatus}, {学名: Pangasianodon hypophthalmus}, {学名: Clarias fuscus}, {学名: Silurus glanis}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {三文鱼}",
+    "expected_output": "[{学名: Salmo salar}, {学名: Oncorhynchus mykiss}, {学名: Oncorhynchus keta}, {学名: Oncorhynchus kisutch}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {秋刀鱼}",
+    "expected_output": "[{学名: Cololabis saira}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物?。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {凤尾鱼}",
+    "expected_output": "[{学名: Coilia mystus}, {学名: Coilia ectenes}, {学名: Setipinna taty}, {学名: Poecilia reticulata}]"
+  }
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲤形目 (Cypriniformes)}; 科: {鲤科 (Cyprinidae)}; 属: {青鱼属 (Mylopharyngodon)}; 种: {青鱼}",
+    "expected_output": "学名: Mylopharyngodon piceus"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {石首鱼科 (Sciaenidae)}; 属: {大黄鱼属 (Larimichthys)}; 种: {大黄鱼}",
+    "expected_output": "学名: Larimichthys crocea"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {马鲅科 (Polynemidae)}; 属: {四指马鲅属 (Eleutheronema)}; 种: {四指马鲅/马友鱼}",
+    "expected_output": "学名: Eleutheronema tetradactylum"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {刺尾鱼科 (Acanthuridae)}; 属: {副刺尾鱼属 (Paracanthurus)}; 种: {黄尾副刺尾鱼/蓝倒吊}",
+    "expected_output": "学名: Paracanthurus hepatus"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {脂鲤目 (Characiformes)}; 科: {脂鲤科 (Characidae)}; 属: {半线脂鲤属 (Hemigrammus)}; 种: {红绿灯鱼}",
+    "expected_output": "学名: Paracheirodon innesi"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲤齿亚目 (Cyprinodontoidei)}; 科: {花鳉科 (Poeciliidae)}; 属: {剑尾鱼属 (Xiphophorus)}; 种: {红剑鱼}",
+    "expected_output": "学名: Xiphophorus hellerii"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲟形目 (Acipenseriformes)}; 科: {匙吻鲟科 (Polyodontidae)}; 属: {匙吻鲟属 (Polyodon)}; 种: {匙吻鲟/鸭嘴鱼}",
+    "expected_output": "学名: Polyodon spathula"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {鰕虎鱼科 (Gobiidae)}; 属: {吻鰕虎鱼属 (Rhinogobius)}; 种: {溪吻鰕虎鱼}",
+    "expected_output": "学名: Rhinogobius duospilus"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {骨舌鱼目 (Osteoglossiformes)}; 科: {齿蝶鱼科 (Pantodontidae)}; 属: {齿蝶鱼属 (Pantodon)}; 种: {齿蝶鱼/飞蝶鱼}",
+    "expected_output": "学名: Pantodon buchholzi"
+  },
+  {
+    "template_id": 1,
+    "system_context": "你是一名水生生物学家，精通全球鱼类分类系统。已知实体所有分类层级完整且无歧义，请直接输出其标准学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {射水鱼科 (Toxotidae)}; 属: {射水鱼属 (Toxotes)}; 种: {七星射水鱼}",
+    "expected_output": "学名: Toxotes jaculator"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {鮨科 (Serranidae)}; 属: {驼背鲈属 (Cromileptes)}; 种: {老鼠斑，体色灰白，布满黑色斑点}",
+    "expected_output": "[{学名: Cromileptes altivelis}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲤形目 (Cypriniformes)}; 科: {鲤科 (Cyprinidae)}; 属: {鲃属 (Barbus)}; 种: {金条鱼，体侧有金色纵纹，常见于东南亚溪流}",
+    "expected_output": "[{学名: Puntius semifasciolatus}, {学名: Barbus schwanefeldii}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {慈鲷科 (Cichlidae)}; 属: {地图鱼属 (Astronotus)}; 种: {地图鱼，尾柄部有橙色环绕的黑色眼斑}",
+    "expected_output": "[{学名: Astronotus ocellatus}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {脂鲤目 (Characiformes)}; 科: {斧鱼科 (Gasteropelecidae)}; 属: {胸斧鱼属 (Carnegiella)}; 种: {燕子鱼，体型如斧，能在水面滑翔，产于南美洲}",
+    "expected_output": "[{学名: Carnegiella strigata}, {学名: Gasteropelecus sternicla}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {蓝子鱼科 (Siganidae)}; 属: {蓝子鱼属 (Siganus)}; 种: {狐狸鱼，黄色身体，面部有黑白纹路，常见于珊瑚礁}",
+    "expected_output": "[{学名: Siganus vulpinus}, {学名: Siganus unimaculatus}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲤形目 (Cypriniformes)}; 科: {鳅科 (Cobitidae)}; 属: {库勒鳅属 (Pangio)}; 种: {蛇仔鱼/苦力泥鳅，身体细长，有黑黄相间条纹}",
+    "expected_output": "[{学名: Pangio kuhlii}, {学名: Pangio myersi}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲇形目 (Siluriformes)}; 科: {甲鲶科 (Callichthyidae)}; 属: {甲鲶属 (Corydoras)}; 种: {珍珠鼠，体侧有两排黑色斑点，小型底栖鱼类}",
+    "expected_output": "[{学名: Corydoras sterbai}, {学名: Corydoras trilineatus}, {学名: Corydoras paleatus}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲀形目 (Tetraodontiformes)}; 科: {箱鲀科 (Ostraciidae)}; 属: {角箱鲀属 (Lactoria)}; 种: {木瓜鱼，黄色身体，身体呈箱型，头部有角状突起}",
+    "expected_output": "[{学名: Lactoria cornuta}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {辐鳍鱼纲 (Actinopterygii)}; 目: {鲈形目 (Perciformes)}; 科: {丝足鲈科 (Osphronemidae)}; 属: {毛足鲈属 (Trichogaster)}; 种: {珍珠马甲，体表布满珍珠状斑点，雄鱼有橘色喉部}",
+    "expected_output": "[{学名: Trichogaster leeri}]"
+  },
+  {
+    "template_id": 2,
+    "system_context": "你是一名水生生物学家，已知实体所有层级完整，但存在同科或同属多个可能物种。请依据形态描述、地理分布等先验知识，按可能性降序输出Top-K学名。",
+    "input": "门: {脊索动物门 (Chordata)}; 纲: {软骨鱼纲 (Chondrichthyes)}; 目: {真鲨目 (Carcharhiniformes)}; 科: {双髻鲨科 (Sphyrnidae)}; 属: {双髻鲨属 (Sphyrna)}; 种: {锤头鲨，头部呈锤状，体型巨大，广泛分布于热带海域}",
+    "expected_output": "[{学名: Sphyrna mokarran}, {学名: Sphyrna lewini}]"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {青鱼属 (Mylopharyngodon)}; 种: {青鱼}",
+    "expected_output": "补全层级: 科: {鲤科 (Cyprinidae)}; 学名: Mylopharyngodon piceus"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {大黄鱼属 (Larimichthys)}; 种: {大黄鱼}",
+    "expected_output": "补全层级: 科: {石首鱼科 (Sciaenidae)}; 学名: Larimichthys crocea"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {脂鲤目 (Characiformes)} → {锯脂鲤属 (Pygocentrus)}; 种: {红腹食人鱼}",
+    "expected_output": "补全层级: 科: {锯脂鲤科 (Serrasalmidae)}; 学名: Pygocentrus nattereri"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {副刺尾鱼属 (Paracanthurus)}; 种: {蓝倒吊}",
+    "expected_output": "补全层级: 科: {刺尾鱼科 (Acanthuridae)}; 学名: Paracanthurus hepatus"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {骨舌鱼目 (Osteoglossiformes)} → {龙鱼属 (Scleropages)}; 种: {金龙鱼}",
+    "expected_output": "补全层级: 科: {骨舌鱼科 (Osteoglossidae)}; 学名: Scleropages formosus"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {银色全带鱼属 (Danio)}; 种: {斑马鱼}",
+    "expected_output": "补全层级: 科: {鲤科 (Cyprinidae)}; 学名: Danio rerio"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲟形目 (Acipenseriformes)} → {鲟属 (Acipenser)}; 种: {欧洲鳇/白鲟}",
+    "expected_output": "补全层级: 科: {鲟科 (Acipenseridae)}; 学名: Huso huso"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {海龙鱼目 (Syngnathiformes)} → {叶海龙属 (Phycodurus)}; 种: {叶形海龙}",
+    "expected_output": "补全层级: 科: {海龙科 (Syngnathidae)}; 学名: Phycodurus eques"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {鲮属 (Cirrhinus)}; 种: {鲮鱼}",
+    "expected_output": "补全层级: 科: {鲤科 (Cyprinidae)}; 学名: Cirrhinus molitorella"
+  },
+  {
+    "template_id": 3,
+    "system_context": "部分层级缺失，但已知余下层级足以唯一确定物种。请先补全缺失层级，再输出标准学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {钱鱼属 (Scatophagus)}; 种: {金鼓鱼}",
+    "expected_output": "补全层级: 科: {钱鱼科 (Scatophagidae)}; 学名: Scatophagus argus"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {石首鱼科 (Sciaenidae)}; 种: {黄鱼}",
+    "expected_output": "补全层级: 属: {大黄鱼属 (Larimichthys) 等}; [{学名: Larimichthys crocea}, {学名: Larimichthys polyactis}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {鲤科 (Cyprinidae)}; 种: {倒吊/倒游鲶}",
+    "expected_output": "补全层级: 属: {多个属}; [{学名: Synodontis nigriventris}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {脂鲤目 (Characiformes)} → {脂鲤科 (Characidae)}; 种: {灯鱼}",
+    "expected_output": "补全层级: 属: {多个属}; [{学名: Paracheirodon innesi}, {学名: Paracheirodon axelrodi}, {学名: Hemigrammus erythrozonus}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲇形目 (Siluriformes)} → {鲶科 (Siluridae)}; 种: {鲶鱼}",
+    "expected_output": "补全层级: 属: {鲶属 (Silurus) 等}; [{学名: Silurus asotus}, {学名: Silurus glanis}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {隆头鱼科 (Labridae)}; 种: {苏眉}",
+    "expected_output": "补全层级: 属: {曲纹唇鱼属 (Cheilinus)}; [{学名: Cheilinus undulatus}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鳗鲡目 (Anguilliformes)} → {鳗鲡科 (Anguillidae)}; 种: {鳗鱼}",
+    "expected_output": "补全层级: 属: {鳗鲡属 (Anguilla)}; [{学名: Anguilla japonica}, {学名: Anguilla anguilla}, {学名: Anguilla rostrata}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲤形目 (Cypriniformes)} → {鲤科 (Cyprinidae)}; 种: {鲫鱼}",
+    "expected_output": "补全层级: 属: {鲫属 (Carassius)}; [{学名: Carassius auratus}, {学名: Carassius carassius}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲀形目 (Tetraodontiformes)} → {四齿鲀科 (Tetraodontidae)}; 种: {河豚}",
+    "expected_output": "补全层级: 属: {东方鲀属 (Takifugu) 等}; [{学名: Takifugu rubripes}, {学名: Takifugu obscurus}, {学名: Tetraodon nigroviridis}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {鲈形目 (Perciformes)} → {雀鲷科 (Pomacentridae)}; 种: {魔鬼鱼}",
+    "expected_output": "补全层级: 属: {多个属}; [{学名: Chrysiptera cyanea}, {学名: Abudefduf vaigiensis}, {学名: Dascyllus trimaculatus}]"
+  },
+  {
+    "template_id": 4,
+    "system_context": "部分层级缺失且存在多个候选物种。请先补全缺失层级，再按可能性降序列出最可能的3个学名。",
+    "input": "已知: {硬骨鱼纲 (Osteichthyes)} → {腔棘鱼科 (Latimeriidae)}; 种: {腔棘鱼}",
+    "expected_output": "补全层级: 属: {矛尾鱼属 (Latimeria)}; [{学名: Latimeria chalumnae}, {学名: Latimeria menadoensis}]"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {黑线飞狐}",
+    "expected_output": "学名: Crossocheilus oblongus"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {一眉道人}",
+    "expected_output": "学名: Sahyadria denisonii"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {银龙鱼}",
+    "expected_output": "学名: Osteoglossum bicirrhosum"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {多宝鱼}",
+    "expected_output": "学名: Scophthalmus maximus"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {巴沙鱼}",
+    "expected_output": "学名: Pangasianodon hypophthalmus"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {盲鳗}",
+    "expected_output": "学名: Myxine glutinosa"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {电鳐}",
+    "expected_output": "学名: Torpedo torpedo"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {白姑鱼}",
+    "expected_output": "学名: Pennahia anea"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {鳓鱼}",
+    "expected_output": "学名: Ilisha elongata"
+  },
+  {
+    "template_id": 5,
+    "system_context": "仅给中文俗名，无任何分类层级。请基于全球鱼类命名规则推断最合理物种，并输出学名。",
+    "input": "俗名: {丁桂鱼}",
+    "expected_output": "学名: Tinca tinca"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {鲳鱼}",
+    "expected_output": "[{学名: Pampus argenteus}, {学名: Pampus chinensis}, {学名: Trachinotus blochii}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {石斑鱼}",
+    "expected_output": "[{学名: Epinephelus coioides}, {学名: Epinephelus lanceolatus}, {学名: Epinephelus fuscoguttatus}, {学名: Plectropomus leopardus}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {罗非鱼}",
+    "expected_output": "[{学名: Oreochromis niloticus}, {学名: Oreochromis mossambicus}, {学名: Tilapia zillii}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {鲭鱼}",
+    "expected_output": "[{学名: Scomber japonicus}, {学名: Scomber scombrus}, {学名: Rastrelliger kanagurta}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {飞鱼}",
+    "expected_output": "[{学名: Cheilopogon unicolor}, {学名: Exocoetus volitans}, {学名: Hirundichthys oxycephalus}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {沙丁鱼}",
+    "expected_output": "[{学名: Sardina pilchardus}, {学名: Sardinops sagax}, {学名: Dussumieria elopsoides}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {狗鱼}",
+    "expected_output": "[{学名: Esox lucius}, {学名: Esox reichertii}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {鳐鱼}",
+    "expected_output": "[{学名: Raja clavata}, {学名: Dasyatis akajei}, {学名: Mobula japanica}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {比目鱼}",
+    "expected_output": "[{学名: Paralichthys olivaceus}, {学名: Pleuronectes platessa}, {学名: Hippoglossus hippoglossus}]"
+  },
+  {
+    "template_id": 6,
+    "system_context": "仅给中文俗名且该俗名对应多个物种。请列出所有可能学名，按可能性降序输出，最多5个。",
+    "input": "俗名: {海马}",
+    "expected_output": "[{学名: Hippocampus kelloggi}, {学名: Hippocampus kuda}, {学名: Hippocampus trimaculatus}]"
+  }
+]
